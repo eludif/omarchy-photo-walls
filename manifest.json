@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "eludif.photo-walls",
+  "name": "Photo Walls",
+  "version": "1.0.0",
+  "author": "eludif",
+  "license": "MIT",
+  "description": "A photo per workspace from your theme's wallpapers, re-dealt every 15 minutes, with the photographer credited on the desktop. Works with any theme that ships a credits.json.",
+  "kinds": [
+    "service",
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Photo Walls",
+    "description": "Click for a new wallpaper on this workspace; hover to see who took the current one.",
+    "category": "Desktop",
+    "defaultSection": "tray",
+    "allowMultiple": false
+  }
+}

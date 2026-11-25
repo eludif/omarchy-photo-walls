@@ -1,0 +1,5 @@
+{
+  "credit.photoBy": "photo by %1",
+  "widget.tooltip": "%1 · photo by %2\nClick for another photo on this workspace",
+  "widget.tooltipNoCredit": "Click for another photo on this workspace"
+}
